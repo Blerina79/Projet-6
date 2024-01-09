@@ -1,0 +1,61 @@
+[30-Nov-2023 21:29:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 21:48:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 22:17:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 22:28:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 22:29:15 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 22:36:51 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Dec-2023 09:46:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php:18
+Stack trace:
+#0 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\User\\L...', true, Array)
+#2 C:\Users\User\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\front-page.php(1): get_header()
+#4 C:\Users\User\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php on line 18
+[01-Dec-2023 10:02:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php:18
+Stack trace:
+#0 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\User\\L...', true, Array)
+#2 C:\Users\User\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\front-page.php(1): get_header()
+#4 C:\Users\User\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php on line 18
+[01-Dec-2023 10:26:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php:18
+Stack trace:
+#0 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\User\\L...', true, Array)
+#2 C:\Users\User\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\front-page.php(1): get_header()
+#4 C:\Users\User\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php on line 18
+[01-Dec-2023 10:30:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_head_top() in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php:20
+Stack trace:
+#0 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\User\\L...', true, Array)
+#2 C:\Users\User\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\front-page.php(1): get_header()
+#4 C:\Users\User\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php on line 20
+[01-Dec-2023 10:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php:18
+Stack trace:
+#0 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\User\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\User\\L...', true, Array)
+#2 C:\Users\User\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\front-page.php(1): get_header()
+#4 C:\Users\User\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\planty\app\public\wp-content\themes\planty\header.php on line 18
