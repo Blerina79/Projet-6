@@ -1,11 +1,405 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+   /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+  
+ /*menu navigation*/  
 
-/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
-body * {
-   font-family: 'Syne', sans-serif;
+ .site-navigation ul.menu li{
+   display: flex;
+ }
+   
+#site-header .sticky-top{
+   position: sticky;
+   z-index: 10;
+   top: 0;
 }
-/* On applique un noir sur les paragraphes */
-p {
+
+.site-header {
+   padding-block-start: 0 !important; 
+   padding-block-end: 0 !important;  
+}
+
+/*logo planty*/
+
+.site-header .site-branding {
+   margin-left: 20px;
+}
+
+   
+li.menu-item  a{
+   color:black;
+   text-align:right;
+   font-family:'syne',sans-serif;
+   font-weight: 700;
+   font-size: 20px; 
+ }
+
+li.menu-item-26.menu-item{
+   display: block;
+   background-color: #dc9f96 !important;
+     
+}
+
+a{
+  padding: 0;
+
+}
+
+ li#menu-item-type-post_type.menu-item-object-page .current-menu-item .page_item .page-item-21 .current_page_item .menu-item-26  a {
+   display: block;
+   background-color: #dc9f96;
+   padding:0;
+   height: 135%;
+   width: 100%;
+}
+
+.admin-link{
+   font-size: 20px;
    color: black;
+   font-weight: 700;
+   font-family: 'syne',sans-serif;
+
 }
 
+
+
+
+  /*#lu.menu-menu-principal.menu a{
+   display: block;
+   background-color: #dc9f96;
+   padding: 0;
+}
+
+
+
+
+ /*.menu-menu-principal-container{
+   font-family:'syne', sans-serif;
+   color: black;
+ }
+
+
+
+
+ /*
+
+/* nous contacter*/
+
+.wpcf7-form-control-wrap{
+   font-size: 20px;
+}
+
+
+ 
+/* Page commander formulaire*/
+.row{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+  
+}
+
+  /* images-fruits */
+  /*.e-con-inner.row{
+
+  }
+
+
+
+ /* page commander */
+
+ 
+
+ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
+   display: flex;
+   justify-content: space-between;
+ }
+
+
+ 
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number.citron{
+   font-size: 15px;
+   width: 31px; 
+   padding: 8px;
+   }
+
+
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number.framboise{
+ font-size: 15px;
+ width: 31px;
+ padding:8px;
+  }
+
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number.pamplemousse{
+   font-size: 15px;
+   width: 31px;
+   padding:8px;
+}
+  
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number.fraise{
+   font-size: 15px;
+   width: 31px;
+   padding: 8px;
+}
+   
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.elementor-21 .elementor-element.elementor-element-dcd0647 .elementor-heading-title {
+   color: #FFFFFF;
+   font-family: "Syne", Sans-serif;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+
+.elementor-21 .elementor-element.elementor-element-792a3e4 .elementor-heading-title {
+   color: #FFFFFF;
+   font-family: "Syne", Sans-serif;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+
+
+.elementor-21 .elementor-element.elementor-element-9ea357f .elementor-heading-title {
+   color: #FFFFFF;
+   font-family: "Syne", Sans-serif;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+
+.elementor-21 .elementor-element.elementor-element-ca5eb26 .elementor-heading-title {
+   color: #FFFFFF;
+   font-family: "Syne", Sans-serif;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+
+
+/* Fix for see the picture in thr form */
+.old-commande{
+   display: none!important;
+}
+  
+/* contact form7 input css page nous rencontrer */
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7-textarea{
+
+   font-size:20px;
+   font-weight: 400;
+   font-family: "syne";
+   width:95%;
+   padding:2%;
+   border: none;
+   color: white;
+}
+
+.wpcf7-form-control .wpcf7-textarea{
+   width: 380px;
+   
+}
+
+/* label font size*/
+
+.label{
+   font-size: 20px;
+   font-family: "syne" sans-serif;
+   
+}
+
+.fleur-gauche{
+   font-size: 200px;
+   max-width: 150px;
+}
+
+/* contact form 7 submit button css page commander */
+
+.wpcf7 input[type="submit"]{
+   font-weight: 400;
+   background-color: #E0B9B4;
+   padding:10px 40px 10px 50px;
+   border-radius: 5px;
+   font-style: normal;
+   font-size: 15px;
+   color: white;
+   border:none;
+   display: flex;
+   justify-content: center;
+   
+
+}
+
+.submit{
+   display: flex;
+   justify-content: center;
+   font-size:x-large;
+   
+
+}
+
+
+.wpcf7-form-control .wpcf7-submit .has-spinner{
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.wpcf7-form-control.wpcf7-submit .has-spinner .submit{
+   align-items: center;
+   position: relative;
+   font-size: 30px;
+   color: white;
+}
+
+.row{
+   display: flex;
+   align-items: center;
+   align-content: stretch;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding: 10px;
+}
+
+.row span.wpcf7-form-control-wrap {
+   display: flex;
+   justify-content: center;
+}
+
+/*.wpcf7-form-control-wrap{
+   
+}*/
+
+
+.col-1{
+   font-size: 30px;
+   color: white;
+   font-style: normal; 
+   width: 50%; 
+   
+}
+
+
+.col-2{
+   font-size: 30px;
+   color: white;
+   font-style: normal; 
+   width: 45%;
+   margin-right: -40px;
+}
+
+
+.wpcf7-response-output{
+   margin-left: 50px;
+}
+
+label {
+   display: inline-block; 
+   vertical-align: middle;
+   font-size: 20px;
+}
+
+/* button commander */
+   
+ 
+ 
+
+ .wpcf7-form input[type="submit"] {
+   font-family: syne;
+   background-color: #E0B9B4;
+   color: white;
+   font-size: 15px;
+   font-weight: 400;
+   border: none;
+   display: block;
+   margin: auto;
+}
+
+
+.form-separator {
+   border-top: 0.5px solid white;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+
+.separator {
+   position: absolute;
+   border-left: 0.5px solid white;
+   height: 40%;
+   right: 53%;
+   max-width:30%;
+   
+}
+ 
+h3{
+   font-size:30px;
+   font-family: Syne, sans serif;
+   font-style: normal;
+   font-weight: 700;
+   text-align: start;
+   margin-block-start: 0rem;
+   margin-block-end: 0rem;
+}
+
+
+label {
+   display: inline-block; 
+   vertical-align: middle; 
+   font-size: 20px;
+   text-align: start;
+   margin: 5px;
+   padding-left: 5px;
+}
+
+
+  
+/*page nous rencontrer*/
+
+.elementor-image-box-title{
+   text-align: center;
+}
+
+.elementor-heading-title .elementor-size-default{
+   text-align: center;
+   padding: 40px;
+   margin-top: 30px;
+
+}
+
+.elementor-17 .elementor-element.elementor-element-3ce98f3 {
+   display: flex;
+   flex-direction: row;
+   container-widget-width: calc( ( 1 - var(--container-widget-flex-grow) ) * 100% );
+   container-widget-height: 100%; 
+   container-widget-flex-grow: 1%;
+   container-widget-align-self: stretch; 
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 0px 0px; 
+   margin-block-start: 0px; 
+   margin-block-end: 0px; 
+   padding-block-start: 0px;
+   padding-inline-start: 0px; 
+   padding-inline-end: 0px; 
+}
+
+
+
+/*footer*/
+
+.site-footer {
+   padding-block-start:0; 
+   padding-block-end: 0; 
+   position: relative;
+}
+   
